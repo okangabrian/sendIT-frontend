@@ -193,7 +193,125 @@ hr {
     opacity: 1;
 }
 
-/* forms */
+/*forms*/
+
+.login {
+    margin-bottom: 20px;
+}
+
+.reminder {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.reminder__save-me {
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.reminder a {
+    text-decoration: none;
+    color: #0095eb;
+    margin-left: 100px;
+}
+
+.reminder a:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    /* border: 1px solid orange; */
+    font-size: 13px;
+    margin-top: -40px;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: #0095eb;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 80px;
+}
+
+.section-signup {
+    padding: 20px;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"] {
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #0095eb;
+    box-shadow: 2px 3px 3px #0095eb;
+}
+
+input {
+    border-radius: 5px;
+}
+
+/* Working with buttons */
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 40px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 10px 20px #0095eb;
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px #0095eb;
+}
+
+.btn-blue {
+    border: 1px solid #0095eb;
+    background-color: #0095eb;
+    color: #fff;
+}
+
+.delivery-orders-containers {
+    margin: 0.7rem;
+    flex: 1 1 30%;
+    background-image: linear-gradient( to right bottom, rgb(7, 172, 150), rgb(43, 161, 165));
+    box-shadow: 2px 2px 2px gray;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.new-order {
+    font-weight: 300;
+    word-spacing: 4px;
+    margin-bottom: 1rem;
+    margin-left: -26%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to right bottom, rgb(0, 149, 235), rgb(0, 149, 235));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+label {
+    font-weight: 400;
+    word-spacing: 4px;
+    background-image: linear-gradient(to right bottom, rgb(0, 149, 235), rgb(0, 149, 235));
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
 * {
     box-sizing: border-box
@@ -226,6 +344,10 @@ hr {
 
 .general-button:hover {
     opacity: 1;
+}
+
+a {
+    color: dodgerblue;
 }
 
 .signin {
