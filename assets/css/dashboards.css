@@ -1,0 +1,345 @@
+/*dash boards*/
+
+.dashboard {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+aside {
+    display: flex;
+    height: 100%;
+}
+
+/* navigation */
+
+.navigation {
+    background: #082233;
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+}
+
+.nav__heading,
+.navs,
+.copyright {
+    color: white;
+    padding: 1rem;
+}
+
+.navs {
+    text-decoration: none;
+}
+
+.navs:hover {
+    background: #0095eb;
+    color: #ffff;
+}
+
+/* form */
+
+.delivery-orders {
+    text-align: center;
+    background-image: linear-gradient( to right bottom, rgb(7, 172, 150), rgb(43, 161, 165));
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    height: 3rem;
+    color: white;
+    box-shadow: 1px 1px 1px rgb(134, 134, 134);
+}
+
+.delivery-orders-containers {
+    margin: 0.7rem;
+    flex: 1 1 30%;
+    background-image: linear-gradient( to right bottom, rgb(7, 172, 150), rgb(43, 161, 165));
+    box-shadow: 2px 2px 2px gray;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.order__container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.order_item {
+    margin: 1rem;
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.order-details {
+    text-align: left;
+}
+
+.desc_header {
+    padding-bottom: 0.4rem;
+    font-weight: 700;
+    background-image: linear-gradient( to right bottom, rgb(7, 172, 150), rgb(43, 161, 165));
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+/* Working with buttons */
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-top: 8px;
+    transition: all 0.2s ease-out;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-blue {
+    border: 1px solid #0095eb;
+    ;
+    background-color: #0095eb;
+    color: #fff;
+}
+
+.btn-accept {
+    color: green;
+}
+
+.btn-reject {
+    color: orange;
+}
+
+/* Navigation bar */
+
+header {
+    display: flex;
+    height: 10vh;
+    width: 100% !important;
+    border-bottom: 1px solid rgb(43, 161, 165);
+    padding-left: 30px;
+    justify-content: flex-end;
+}
+
+/*  main nav*/
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 25px 0px;
+    margin-right: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+.main-nav i {
+    color: rgb(43, 161, 165);
+    font-size: 15px;
+}
+
+i:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+main {
+    width: 100%;
+}
+
+.dashboard__content {
+    padding: 15px;
+}
+
+.accept_order i {
+    padding: 8px;
+    font-size: 22px;
+    margin-left: 1.5rem;
+}
+
+/*Dasboard*/
+
+.dashboard {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+aside {
+    display: flex;
+    height: 100%;
+}
+
+/* navigation */
+
+.navigation {
+    background: linear-gradient(#082233;
+    , #082233;
+    );
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+}
+
+.nav__heading,
+.navs,
+.copyright {
+    color: white;
+    padding: 1rem;
+}
+
+.navs {
+    text-decoration: none;
+}
+
+.navs:hover {
+    background: #082233;
+    color: #ffff;
+}
+
+/* form */
+
+.delivery-orders {
+    text-align: center;
+    background-image: linear-gradient( to right bottom, rgb(7, 172, 150), rgb(43, 161, 165));
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    height: 3rem;
+    color: white;
+    box-shadow: 1px 1px 1px rgb(134, 134, 134);
+}
+
+.delivery-orders-containers {
+    margin: 0.7rem;
+    flex: 1 1 30%;
+    background-image: linear-gradient( to right bottom, rgb(7, 172, 150), rgb(43, 161, 165));
+    box-shadow: 2px 2px 2px gray;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.order__container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.order_item {
+    margin: 1rem;
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.desc_header {
+    padding-bottom: 0.4rem;
+    font-weight: 700;
+    background-image: linear-gradient( to right bottom, rgb(7, 172, 150), rgb(43, 161, 165));
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+/* Working with buttons */
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-top: 8px;
+    transition: all 0.2s ease-out;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-blue {
+    background-color: #0095eb;
+    color: #fff;
+}
+
+.btn-cancel {
+    background: red;
+}
+
+/* Navigation bar */
+
+header {
+    display: flex;
+    height: 10vh;
+    width: 100% !important;
+    border-bottom: 1px solid rgb(43, 161, 165);
+    padding-left: 30px;
+    justify-content: flex-end;
+}
+
+/*  main nav*/
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 25px 0px;
+    margin-right: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+.main-nav i {
+    color: rgb(43, 161, 165);
+    font-size: 15px;
+}
+
+i:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+main {
+    width: 100%;
+}
+
+.dashboard__content {
+    padding: 15px;
+}
+
+table#admin {
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
+table#admin tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table#admin tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table#admin th {
+    color: white;
+    background-color: #082233;
+}
+
+th {
+    text-align: left;
+}
