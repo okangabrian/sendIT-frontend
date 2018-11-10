@@ -354,3 +354,136 @@ a {
     background-color: #f1f1f1;
     text-align: center;
 }
+
+/* section how it works */
+
+.text {
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to right bottom, rgb(30, 228, 201), rgb(7, 172, 150));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.row-2 {
+    padding: 4rem;
+    display: flex;
+    border-radius: 3px;
+    height: auto;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.column {
+    margin-right: 3rem;
+    border-bottom: 0.1rem solid wheat;
+    width: 33.3%;
+    height: 18rem;
+    box-shadow: 0 0 1rem 0 #0095eb;
+}
+
+.column:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+}
+
+.steps {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    display: inline-block;
+}
+
+.description {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.description p {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+}
+
+.card {
+    padding: 10px 20px;
+    height: 300px;
+}
+
+.titles {
+    color: #0095eb !important;
+}
+
+/*Create order*/
+
+.Create-order {
+    position: relative;
+    left: 50vh;
+    background: white;
+    width: 50vw;
+    height: 90vh;
+    border-radius: .5rem;
+    text-align: left;
+}
+
+input {
+    font-size: .7rem;
+}
+
+label {
+    display: block;
+    margin: .8rem;
+    padding: .2rem;
+    font-size: 1rem;
+}
+
+input {
+    width: 30vw;
+    border: 0;
+    outline: 0;
+    text-align: justify;
+    border-bottom: 1px solid black;
+}
+
+label {
+    font-weight: 400;
+    word-spacing: 4px;
+    background-image: linear-gradient(to right bottom, rgb(0, 149, 235), rgb(0, 149, 235));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.add {
+    margin-top: 1.5rem;
+}
+
+/* section login Forms */
+
+.new-order {
+    font-weight: 300;
+    word-spacing: 4px;
+    margin-bottom: 1rem;
+    margin-left: -26%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to right bottom, rgb(0, 149, 235), rgb(0, 149, 235));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.new-account-small {
+    font-weight: 400;
+    word-spacing: 4px;
+    font-size: 0.8rem;
+}
+
+/* section 1 Forms */
+
+.login {
+    margin-bottom: 20px;
+}
